@@ -1,0 +1,22 @@
+// variables
+
+$base-color:        #3F51B5;
+$base-color-hover:  #303F9F;
+$base-font-color:   #212121;
+$light-font-color:  #F5F5F5;
+
+// basereset
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+// helper classes
+
+body {
+  div {
+    background-color: $base-color;
+    color: $light-font-color;
+  }
+}
